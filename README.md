@@ -6,6 +6,7 @@ This repo is a collection of technical interview questions and solutions. The so
 ### * [Two Sum](https://leetcode.com/problems/two-sum/)
 ### * [Add Two Numbers](https://adventofcode.com/2020/day/1)
 ### * [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+### * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ## Contributing
 This is meant to be a helpful resource. There are always more than one way to complete these type of questions. Anyone is welcome to add to an existing technical question with their own solutions, while maintaining any existing solutions. Additionally, if you'd like to add a new question, please do so.
