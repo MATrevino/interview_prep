@@ -6,9 +6,7 @@ class Microwave
   end
 
   def timer
-    minutes = number / 100
-    seconds = number % 100
-    "#{minutes}:#{seconds}"
+    return "00:0#{number}"if number < 9
   end
   
 end
