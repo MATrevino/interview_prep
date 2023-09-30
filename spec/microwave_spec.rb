@@ -21,7 +21,7 @@ RSpec.describe Microwave do
     end
 
     it 'returns 01:00 when given 60' do
-      expect(Mircowave.new(60).timer).to eq('01:00')
+      expect(Microwave.new(60).timer).to eq('01:00')
     end
 
     it 'return 01:00 when given 100' do 
