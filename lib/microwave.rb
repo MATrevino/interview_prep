@@ -15,10 +15,10 @@ class Microwave
       return "00:0#{number}"
     elsif number < 60
       return "00:#{number}"
-    elsif number == 100
-      return "0#{smart_display}:00"
     elsif number >= 60 && number != 100
       return "0#{hours}:00"
+    elsif (number/100).to_s.length == 1
+      return "0#{smart_display}:00"
     end
   end
   
