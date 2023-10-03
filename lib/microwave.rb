@@ -19,6 +19,8 @@ class Microwave
       return "00:#{number}"
     elsif smart_display >= 1
       return "0#{smart_display}:0#{smart_display_seconds}"
+    elsif number >= 60 && seconds < 10
+      return "0#{minutes}:0#{seconds}"
     elsif number >= 60 && seconds != 0
       return "0#{minutes}:#{seconds}"
     elsif number >= 60 && seconds == 0
