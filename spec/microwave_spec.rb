@@ -32,15 +32,14 @@ RSpec.describe Microwave do
       expect(Microwave.new(90).timer).to eq('01:30')
     end
 
+    it 'returns 01:01 when given 101' do
+      expect(Microwave.new(101).timer).to eq('01:01')
+    end
+
 end
 
 
-#   def test_one_minute
-#     assert_equal '01:00', Microwave.new(100).timer
-#   end
-#   def test_ninety_seconds
-#     assert_equal '01:30', Microwave.new(90).timer
-#   end
+
 #   def test_one_minute_and_one_second
 #     assert_equal '01:01', Microwave.new(101).timer
 #   end

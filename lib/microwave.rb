@@ -10,6 +10,7 @@ class Microwave
     seconds = number % 60
     seconds = 00 if seconds == 0
     smart_display = (number/100)
+    smart_display_seconds = number % 100
     #create separate methods for above
 
     if number < 9
@@ -17,7 +18,7 @@ class Microwave
     elsif number < 60
       return "00:#{number}"
     elsif smart_display >= 1
-      return "0#{smart_display}:00"
+      return "0#{smart_display}:0#{smart_display_seconds}"
     elsif number >= 60 && seconds != 0
       return "0#{minutes}:#{seconds}"
     elsif number >= 60 && seconds == 0
