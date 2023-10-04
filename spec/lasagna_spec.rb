@@ -11,4 +11,10 @@ RSpec.describe Lasagna do
       expect(Lasagna::EXPECTED_MINUTES_IN_OVEN).to eq(40)
     end
   end
+
+  describe '#remaining_minutes_in_oven' do
+    it 'returns 15 when 25 minutes have passed' do
+      expect(lasagna.remaining_minutes_in_oven(25)).to eq(15)
+    end
+  end
 end

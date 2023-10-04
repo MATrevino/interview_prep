@@ -5,4 +5,8 @@ class Lasagna
 
   end
 
+  def remaining_minutes_in_oven(time)
+    EXPECTED_MINUTES_IN_OVEN - time
+  end
+
 end
