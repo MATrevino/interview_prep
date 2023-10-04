@@ -27,4 +27,10 @@ RSpec.describe Lasagna do
       expect(lasagna.preparation_time_in_minutes(4)).to eq(8)
     end
   end
+
+  describe '#total_time_in_minutes' do
+    it 'it returns 32 when given 1 layer and minutes in oven 30' do
+      expect(Lasagna.new.total_time_in_minutes(number_of_layers: 1, actual_minutes_in_oven: 30)).to eq(32)
+    end
+  end
 end

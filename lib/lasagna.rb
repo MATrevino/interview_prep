@@ -13,4 +13,7 @@ class Lasagna
     layers * 2
   end
 
+  def total_time_in_minutes(number_of_layers:, actual_minutes_in_oven:)
+    (number_of_layers * 2) + actual_minutes_in_oven
+  end
 end
