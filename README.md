@@ -10,6 +10,7 @@ This repo is a collection of technical interview questions and solutions. The so
 ### * [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 ### * [Remove Element](https://leetcode.com/problems/remove-element/)
 ### * [Microwave problem](https://exercism.org/tracks/ruby/exercises/microwave)
+### * [Lasagna] (https://exercism.org/tracks/ruby/exercises/lasagna)
 
 ## Contributing
 This is meant to be a helpful resource. There are always more than one way to complete these type of questions. Anyone is welcome to add to an existing technical question with their own solutions, while maintaining any existing solutions. Additionally, if you'd like to add a new question, please do so.
