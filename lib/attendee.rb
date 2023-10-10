@@ -1,5 +1,5 @@
 class Attendee
-  attr_reader :height, :pass_id
+
   def initialize(height)
     @height = height
     @pass_id = nil
@@ -14,10 +14,10 @@ class Attendee
   end
 
   def issue_pass!(pass_id)
-    raise 'Implement the Attendee#issue_pass! method'
+    pass_id
   end
 
   def revoke_pass!
-    raise 'Implement the Attendee#revoke_pass! method'
+    nil
   end
 end

@@ -16,5 +16,14 @@ RSpec.describe Attendee do
     it 'returns nil for the pass_id' do
       expect(@jack.pass_id).to eq(nil)
     end
+
+    it 'returns the pass_id when issued' do
+      pass_id = 1
+      expect(@jack.issue_pass!(pass_id)).to eq(1)
+    end
+
+    it 'returns nil for the pass_id when revoked' do
+      expect(@jack.revoke_pass!).to eq(nil)
+    end
   end
 end
