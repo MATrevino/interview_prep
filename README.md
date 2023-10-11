@@ -14,6 +14,7 @@ This repo is a collection of technical interview questions and solutions. The so
 ### * [Simple Calculator](https://exercism.org/tracks/ruby/exercises/simple-calculator)
 ### * [Amusement Park](https://exercism.org/tracks/ruby/exercises/amusement-park)
 ### * [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+### * [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
 ## Contributing
 This is meant to be a helpful resource. There are always more than one way to complete these type of questions. Anyone is welcome to add to an existing technical question with their own solutions, while maintaining any existing solutions. Additionally, if you'd like to add a new question, please do so.
