@@ -45,3 +45,6 @@ puts length_of_last_word(s)
 
 a = "   fly me   to   the moon  "
 puts length_of_last_word(a)
+
+b = "luffy is still joyboy"
+puts length_of_last_word(b)
