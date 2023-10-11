@@ -41,4 +41,7 @@ def length_of_last_word(s)
 end
 
 s = "Hello World"
-length_of_last_word(s)
+puts length_of_last_word(s)
+
+a = "   fly me   to   the moon  "
+puts length_of_last_word(a)
