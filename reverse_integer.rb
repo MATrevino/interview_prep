@@ -26,3 +26,4 @@ end
 
 puts reverse_integer(123)
 puts reverse_integer(-123)
+puts reverse_integer(120)
