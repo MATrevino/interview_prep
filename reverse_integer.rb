@@ -16,7 +16,7 @@
 # Output: 21
 
 def reverse_integer(num)
-  if num > 2147483647 || num < -2147483648
+  if num > 2.pow(31) || num < -2147483648
     0
   elsif num.to_s.reverse.to_i > 2147483647 || num.to_s.reverse.to_i < -2147483648
     0
