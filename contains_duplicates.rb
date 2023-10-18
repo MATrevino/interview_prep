@@ -22,3 +22,6 @@
 # -109 <= nums[i] <= 109
 
 
+def contains_duplicates(numbers)
+  numbers.size != numbers.uniq.size
+end
